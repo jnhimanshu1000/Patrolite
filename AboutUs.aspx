@@ -5,40 +5,21 @@
     <title>Bansal Insurance - About Us</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div style="height: 530px;">
-        <table>
+    <div style="height: 430px;">
+        <table style="margin-left: 33px">
             <tr>
-                <td style="vertical-align: top;">
-                    <div style="float: left">
-                        <UC:CommonUC ID="Common" runat="server" />
-                        <div class="CommonMenuClass" onclick="window.open('KYCForm.aspx', '_self');">
-                            Know your Client
-                            <br />
-                            (KYC Form)
-                        </div>
-                        <div class="CommonMenuClass" onclick="window.open('PolicyReminder.aspx', '_self');">
-                            Policy Reminder                            
-                        </div>
-                    </div>
-                </td>
                 <td style="vertical-align: top;">
                     <div class="MainData">
                         <h3 class="HeaderBackGround">About Us</h3>
                         <hr class="HRLine" />
                         <img src="images/aboutus.jpg" style="height: 280px;" class="CommonImage" />
-                        At <b>Bansal Insurance</b>, we believe in conservative investing. Our purpose is to help people grow and preserve their wealth for a single reason:
+                        "AiS" is Founded on the belief that students should be encouraged to dream and follow them passionately. Each passing year is a learning experience. It is an endless journey which opens up new Vistas of development.<br />
                         <br />
-                        <b>To secure their goals - Today and Tomorrow</b>. To help financial advisors and clients succeed, we follow three guiding principles:<br />
-                        <br />
-                        <b><u>Investment Discipline</u></b><br />
-                        Our approach to investing begins with a perspective both broad and deep. We combine time-tested investment specialization, extensive industry knowledge and active risk management to seek investment opportunities that we believe will be promising over time. We strive to integrate the best thinking and resources as we pursue balanced diversification for individual and institutional investors.
+                        Today "AiS" is more than an institute ; It's not just a sphere of education but society at large. We at "AiS" believe that, education means not just the books, Rather it is an all round development of the student-Physical, Mental, Moral and Spiritual. Education paves the path of knowledge and knowledge leads to wisdom which is necessary to develop the society.
                         <br />
                         <br />
-                        <b><u>Service Excellence</u></b><br />
-                        We add value to the investing process through expert research, personalized service and comprehensive wealth management solutions. Our organization excels through our one-to-one relationships with advisors and their clients and our client-centered service approach.<br />
+                        The goal of an Institute is to imbibe in the students a love of learning and inculcate in them a desire to excel at every level. The institute also aims at equipping the student with intellectual and practical skills that are necessary to meet inevitable challenges in future.
                         <br />
-                        <b><u>Continuous Innovation</u></b><br />
-                        Our products are developed purposefully to give advisors and investors choice and flexibility in creating quality investment portfolios that match each client’s financial goals and risk tolerance. Through product innovation, we strive to offer advisors and their client’s investment solutions that help provide an optimal return on their investments over time.<br />
                         <br />
                         For more information, please <a href="ContactUs.aspx">contact us.</a>
                     </div>

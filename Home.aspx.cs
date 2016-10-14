@@ -11,29 +11,4 @@ public partial class Home : System.Web.UI.Page
     {
 
     }
-
-    protected void Button1_Click(object sender, EventArgs e)
-    {
-        Data data = new Data()
-        {
-            EmailID = txt_EmailID.Text,
-            Comment = txt_Comment.Text,
-            Name = txt_Name.Text,
-            MobileNumber = txt_Mobile.Text,
-            Subject = "BansalInsurance : Query",
-            Address = txt_Address.Text  
-        };
-        data.Body = ProfileHelper.PopulateBody(data, this.Page, 2);
-        ProfileHelper.SendMail(data);
-        ClearData();
-    }    
-
-    private void ClearData()
-    {
-        txt_Address.Text = "";        
-        txt_Comment.Text = "";        
-        txt_EmailID.Text = "";
-        txt_Mobile.Text = "";
-        txt_Name.Text = "";        
-    }
 }

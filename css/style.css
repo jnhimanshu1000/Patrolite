@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 19px;
     font-family: arial, sans-serif;
     color: #56595C;
@@ -376,7 +376,7 @@ section {
     }
 
     .cols .col {
-        width: 215px;
+        width: 330px;
         float: left;
     }
 
