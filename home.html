@@ -1,14 +1,14 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <title>Welcome to Patronage Edubuzz</title>
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Bansal Insurance, Brilliant Insurance, Insurance agent, Insurance, Fund Performance, NRI Investment, Tax Planning, Financial Planning, Financial Investments, SIP, Dividend, 80C, Growth Calculator, Financial Calculator, Term Insurance, Child Plan, Guaranteed Plan, Pension Plan, Money Back Plan, Car Insurance, Home Insurance, Travel Insurance, KYC, Uttar Pradesh" />
     <meta name="description" content="Mr. Ghanshyam Bansal, The founder-president of Bansal Insurance (Brilliant Insurance) ‘ THE RELATIONSHIP KING’ in the Insurance Industry. Mr. Ghanshyam ranks among the top 10 insurance advisors in the Life Insurance Corporation of India. LIC being the mother company Mr. Ghanshyam is also a Chief Life Insurance Advisor and a Life time member of Million Dollar Round Table ( an apex qualification for insurance professionals all over the world) " />
     <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css?1" type="text/css" media="all" />
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
-    <asp:contentplaceholder id="head" runat="server">
-    </asp:contentplaceholder>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet" type="text/css">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -20,27 +20,29 @@
                 <div class="container">
                     <!-- Header -->
                     <header class="header">
-                        <div style="width: 95%;">
+                        <div style="width: 95%; margin-bottom: 3px;">
                             <table style="width: 100%;">
                                 <tr>
-                                    <td>
-                                        <h1 id="logo">Bansal Insurance</h1>
+                                    <td style="width: 36%; text-align: right; line-height: none;">
+                                        <img src="images/logo.png" />
                                     </td>
                                     <td style="text-align: right;">
-                                        <span style="float: right; margin-top: -20px;">
-                                            <table style="font-size: 15px; font-weight: bold; color: #324957; text-align: left;">
+                                        <span style="float: right; margin-top: 10px;">
+                                            <table style="font-size: 15px; font-weight: bold; color: #06376a; text-align: left; line-height: 23px;">
                                                 <tr>
-                                                    <td>
+                                                    <td style="vertical-align: top;">
                                                         <img src="images/phone-icon.png" />
                                                     </td>
-                                                    <td>&nbsp;&nbsp;&nbsp;+(91) - 9811007678
+                                                    <td>&nbsp;</td>
+                                                    <td style="vertical-align: top;">+(91) - 9999990498
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
+                                                    <td style="vertical-align: top;">
                                                         <img src="images/email-icon.png" />
                                                     </td>
-                                                    <td>&nbsp;&nbsp;&nbsp;Info@BansalInsurance.com
+                                                    <td style="width: 8px;">&nbsp;</td>
+                                                    <td style="vertical-align: top;">info.patronage@gmail.com
                                                     </td>
                                                 </tr>
                                             </table>
@@ -51,42 +53,12 @@
                         </div>
                         <nav id="navigation">
                             <ul>
-                                <li id="menu_home" class="active"><a href="Home.aspx">Home</a></li>
-                                <li id="menu_aboutus"><a href="AboutUs.aspx">About Us</a></li>
-                                <li id="menu_achievement"><a href="Achievement.aspx">Achievements</a></li>
-                                <li id="menu_lifeinsurance">
-                                    <a href="LifeInsurance.aspx">Life Insurance<span></span></a>
-                                    <ul>
-                                        <li><a href="TermInsurance.aspx">Term Insurance</a></li>
-                                        <li><a href="ChildPlan.aspx">Chlid Plan</a></li>
-                                        <li><a href="GuarantedPlan.aspx">Guaranteed Plan</a></li>
-                                        <li><a href="PensionPlan.aspx">Pension Plan</a></li>
-                                        <li><a href="MoneyBack.aspx">Money Back Plan</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu_generalinsurance">
-                                    <a href="GeneralInsurance.aspx">General Insurance<span></span></a>
-                                    <ul>
-                                        <li><a href="MotorInsurance.aspx">Motor Insurance</a></li>
-                                        <li><a href="HomeInsurance.aspx">Home Insurance</a></li>
-                                        <li><a href="TravelInsurance.aspx">Travel Insurance</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu_healthinsurance"><a href="HealthInsurance.aspx">Health Insurance</a></li>
-                                <li id="Li1">
-                                    <a href="MotorClaim.aspx">Claim Form<span></span></a>
-                                    <ul>
-                                        <li><a href="MotorClaim.aspx">Motor Claim Form</a></li>
-                                        <li><a href="GeneralClaim.aspx">Health Claim Form</a></li>
-                                    </ul>
-                                </li>
-                                <li id="menu_contact">
-                                    <a href="ContactUs.aspx">Contact Us<span></span></a>
-                                    <ul>
-                                        <li><a href="ContactUs.aspx">Reach Us</a></li>
-                                        <li><a href="PolicyReminder.aspx">Policy Reminder</a></li>
-                                    </ul>
-                                </li>
+                                <li id="menu_home" class="active"><a href="Home.html">Home</a></li>
+                                <li id="menu_aboutus"><a href="AboutUs.html">About Us</a></li>
+                                <li id="menu_goal"><a href="Goals.html">Goal</a></li>
+                                <li id="menu_faculty"><a href="Faculty.html">Faculty</a></li>
+                                <li id="menu_gallery"><a href="Gallery.html">Gallery</a></li>
+                                <li id="menu_contact"><a href="ContactUs.html">Contact Us</a></li>
                             </ul>
                         </nav>
                         <div class="cl">&nbsp;</div>
@@ -99,7 +71,7 @@
                                     <div class="flexslider">
                                         <ul class="slides">
                                             <li>
-                                                <a href="ContactUs.aspx">
+                                                <a href="ContactUs.html">
                                                     <img src="css/images/slide-img4.jpg" alt="" style="width: 675px; height: 290px;" /></a>
                                             </li>
                                             <li>
@@ -110,7 +82,7 @@
                                                     <img src="css/images/slide-img1.jpg" alt="" style="width: 675px; height: 290px;" /></a>
                                             </li>
                                             <li>
-                                                <a href="ContactUs.aspx">
+                                                <a href="ContactUs.html">
                                                     <img src="css/images/slide-img2.jpg" style="width: 675px; height: 290px;" alt="" /></a>
                                             </li>
                                         </ul>
@@ -118,13 +90,14 @@
                                 </td>
                                 <td style="vertical-align: top;">
                                     <div style="margin-left: 10px;">
-                                        <h3 style="font-family: 'Monotype Corsiva'; font-size: 30px; margin-top: 10px; font-weight: bold; color: rgba(31, 31, 170, 0.77);">Welcome !!!</h3>
+                                        <h2 class="subHeading">Welcome to Patronage Edubuzz!!!</h2>
                                         <hr class="HRLine" />
                                         <div class="desc1" style="width: 350px; margin-top: 10px;">
-                                            Patrolite's is the first institute to give CA Education, it's present shape and form. When it comes to the Latest in CA-Education, Patrolite's is the first to ask "what is next?"
-Innovation was all that lacked in the hard hitting CA Education scenario way back in 2006 and was the sole thing that inspired a visionary like Bhagwan Lal to lay the cornerstone of the most successful CA- Education Center in Shahdara, Delhi.
+                                            Patronage Edubuzz is an apex institution and provides professional coaching for <b>Income Tax, Auditing, Accountancy, Financial Management, Economics and experienced faculty members</b>.
+                                            <br />
+                                            The institute provides a professional, unique, innovative and progressive learning environment to the students which help them to choose the right path to achieve their goals and targets.
                             <section class="cols" style="background: none">
-                                <div class="col"><a href="AboutUs.aspx" style="margin-left: -33px; margin-top: 15px;" class="col-btn">Read All</a></div>
+                                <div class="col"><a href="AboutUs.html" style="margin-left: -33px; margin-top: 15px;" class="col-btn">Read All</a></div>
                             </section>
                                         </div>
                                     </div>
@@ -141,15 +114,24 @@ Innovation was all that lacked in the hard hitting CA Education scenario way bac
                                     <section class="cols">
                                         <div class="col">
                                             <h3 class="HeaderBackGround" style="padding: 5px">Our Goal</h3>
-                                            <p class="desc1">The goal of an Institute is to imbibe in the students a love of learning and inculcate in them a desire to excel at every level. The institute also aims at equipping the student with intellectual and practical skills that are necessary to meet inevitable challenges in future.</p>
+                                            <p class="desc1">
+                                                The goal of an Institute is to imbibe in the students a love of learning and inculcate in them a desire to excel at every level. The institute also aims at equipping the student with intellectual and practical skills that are necessary to meet inevitable challenges in future.<br />
+                                                <br />
+                                                <a href="Goals.html" class="col-btn">Read All</a>
+
+                                            </p>
                                         </div>
                                         <div class="col">
-                                            <h3 class="HeaderBackGround" style="padding: 5px">Allumini Testimonial</h3>
+                                            <h3 class="HeaderBackGround" style="padding: 5px">Why Approach Matters?</h3>
                                             <p class="desc1">It's a good experience of studying in AIS. After scoring "marks" in "class" , I became confident for scoring good marks in "class", also and it become true. Through regular counselling, guidance, test series and personal attention by " any teacher name" and thier faculty members, success is bound to achieve. It is rightly said if success is in your blood ... then Join ( AIS) Today</p>
                                         </div>
                                         <div class="col">
                                             <h3 class="HeaderBackGround" style="padding: 5px">Our Mission</h3>
-                                            <p class="desc1">To create an excellent competitive environment in student community by virtue of imparting qualitative education with consolidated strategy and scientific approach to produce proficient professionals.</p>
+                                            <p class="desc1">
+                                                To create an excellent competitive environment in student community by virtue of imparting qualitative education with consolidated strategy and practical approach to produce proficient candidate.<br />
+                                                <br />
+                                                <a href="AboutUs.html" class="col-btn">Read All</a>
+                                            </p>
                                         </div>
                                     </section>
                                 </td>
@@ -165,12 +147,12 @@ Innovation was all that lacked in the hard hitting CA Education scenario way bac
                     <div class="widget contact-widget">
                         <h3>Contact Us</h3>
                         <ul class="desc1">
-                            <li>131, 1<sup>st</sup> Floor, Apsara Complex</li>
-                            <li>Delhi, U.P. Border, Sahibabad
+                            <li>Mr. Ravi Jain</li>
+                            <li>U-24, Second Floor, Naveen Shahdara
                             </li>
-                            <li>Ghaziabad, Uttar Pradesh - 201006
+                            <li>Delhi - 110032
                             </li>
-                            <li><strong>Phone: </strong>+(91) - 9811007678</li>
+                            <li><strong>Mobile: </strong>+(91) - 9999990498</li>
                         </ul>
                     </div>
                     <div class="widget socials-widget">
@@ -188,14 +170,12 @@ Innovation was all that lacked in the hard hitting CA Education scenario way bac
                 <div class="footer">
                     <nav class="footer-nav">
                         <ul>
-                            <li><a href="Home.aspx">Home</a></li>
-                            <li><a href="AboutUs.aspx">About Us</a></li>
-                            <li><a href="Achievement.aspx">Achievements</a></li>
-                            <li><a href="GeneralInsurance.aspx">General Insurance</a></li>
-                            <li><a href="LifeInsurance.aspx">Life Insurance</a></li>
-                            <li><a href="HealthInsurance.aspx">Health Insurance</a></li>
-                            <li><a href="MotorClaim.aspx">Motor Claim Form</a></li>
-                            <li><a href="ContactUs.aspx">Contact Us</a></li>
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="AboutUs.html">About Us</a></li>
+                            <li><a href="Goals.html">Goals</a></li>
+                            <li><a href="Faculty.aspx">Faculty</a></li>
+                            <li><a href="Gallery.aspx">Gallery</a></li>
+                            <li><a href="ContactUs.html">Contact Us</a></li>
                         </ul>
                     </nav>
                     <p class="copy">Copyright &copy; 2012 All Rights Reserved. Design by <a href="#" target="_blank">WebSolution Pvt. Ltd.</a> </p>

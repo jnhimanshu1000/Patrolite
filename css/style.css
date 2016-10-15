@@ -12,7 +12,7 @@ body, html {
 body {
     font-size: 15px;
     line-height: 19px;
-    font-family: arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #56595C;
     background: #edf6ff url(images/body.png) repeat-x 0 0;
     min-width: 1100px;
@@ -101,9 +101,16 @@ textarea {
     width: 100%;
     float: left;
     margin-bottom: 3px;
-    font-family: 'Monotype Corsiva';
-    color: #324957;
+    font-family: 'Agency FB';
+    color: #06376a;
     font-size: 40pt;
+}
+
+#logoSubHeading {
+    font-family: 'Bradley Hand ITC';
+    font-size: 20px;
+    font-weight: bold;
+    color: #06376a;
 }
 
 #navigation {
@@ -118,7 +125,7 @@ textarea {
     #navigation ul {
         list-style: none;
         list-style-position: outside;
-        font-size: 14px;
+        font-size: 16px;
         text-shadow: rgba(255,255,255,0.5) 0px 1px 1px;
     }
 
@@ -153,9 +160,10 @@ textarea {
         }
 
         #navigation ul li a {
-            color: #324957;
+            color: #06376a;
+            font-weight: bold;
             float: left;
-            padding: 0 19px;
+            padding: 0 55px;
             border: 1px solid #d7e1e8;
             border-left: 0;
             border-right: 0;
@@ -260,11 +268,9 @@ textarea {
 
 .main h3 {
     color: #293237;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 21px;
-    font-weight: 600;
-    font-family: 'Mongolian Baiti' Arial 'Times New Roman';
-    font-style: italic;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
     .main h3 a {
@@ -364,7 +370,7 @@ section {
 }
 
 .cols {
-    background: url(images/cols.png) repeat-x 0 bottom;
+    /*background: url(images/cols.png) repeat-x 0 bottom;*/
 }
 
     .cols h3 {
@@ -498,8 +504,7 @@ section {
 
     .services .widget {
         float: left;
-        width: 335px;
-        margin-left: 40px;
+        width: 330px;        
         text-align: justify;
     }
 
@@ -509,7 +514,7 @@ section {
         }
 
     .services .contact-widget {
-        width: 250px;
+        width: 330px;
     }
 
     .services .widget + .widget {
@@ -663,7 +668,6 @@ section {
 .MainData {
     padding-right: 40px;
     text-align: justify;
-    padding-top: 10px;
 }
 
 .CommonImage {
@@ -676,8 +680,7 @@ section {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin: 10px 0 20px 20px;
     width: 300px;
     height: 170px;
 }
@@ -794,4 +797,73 @@ section {
     line-height: 1.7em;
     margin-bottom: 20px;
     text-align: justify;
+}
+
+.listFormat {
+    list-style: none;
+}
+
+ul.listFormat li {
+    border-bottom: 1px solid #E0E8ED;
+    padding: 6px 0;
+}
+
+    ul.listFormat li a {
+        color: #555;
+        font-size: 13px;
+        display: block;
+        padding: 5px 0 5px 20px;
+        background: url(../images/marker.png) no-repeat 0;
+    }
+
+        ul.listFormat li a:hover {
+            color: #29166f;
+            text-decoration: none;
+        }
+
+.contact-form {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+    .contact-form div {
+        padding: 5px 0;
+    }
+
+    .contact-form span {
+        display: block;
+        font-size: 0.8125em;
+        color: #333;
+        padding-bottom: 5px;
+    }
+
+    .contact-form input[type="text"], .contact-form textarea, .contact-form input[type="number"] {
+        padding: 8px;
+        display: block;
+        width: 98%;
+        background: #fcfcfc;
+        border: none;
+        outline: none;
+        color: #464646;
+        font-size: 0.8125em;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: inset 0px 0px 3px #999;
+        -webkit-box-shadow: inset 0px 0px 3px #999;
+        -moz-box-shadow: inset 0px 0px 3px #999;
+        -o-box-shadow: inset 0px 0px 3px #999;
+        -webkit-appearance: none;
+    }
+
+.subHeading {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #06376a;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.logo {
+    background: url(../images/logo.png) no-repeat right 0;
 }

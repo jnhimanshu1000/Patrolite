@@ -18,50 +18,35 @@ function ClearActiveClass() {
         document.getElementById('menu_home').classList.remove("active");
     if (document.getElementById('menu_aboutus'))
         document.getElementById('menu_aboutus').classList.remove("active");
-    if (document.getElementById('menu_lifeinsurance'))
-        document.getElementById('menu_lifeinsurance').classList.remove("active");
-    if (document.getElementById('menu_generalinsurance'))
-        document.getElementById('menu_generalinsurance').classList.remove("active");
-    if (document.getElementById('menu_healthinsurance'))
-        document.getElementById('menu_healthinsurance').classList.remove("active");
-    if (document.getElementById('menu_download'))
-        document.getElementById('menu_download').classList.remove("active");
+    if (document.getElementById('menu_goal'))
+        document.getElementById('menu_goal').classList.remove("active");
+    if (document.getElementById('menu_faculty'))
+        document.getElementById('menu_faculty').classList.remove("active");
+    if (document.getElementById('menu_gallery'))
+        document.getElementById('menu_gallery').classList.remove("active");
     if (document.getElementById('menu_contact'))
         document.getElementById('menu_contact').classList.remove("active");
-
-    switch (window.location.href.toString().split(window.location.host + '/')[1].toLowerCase()) {
-        case "home.aspx":
+    var pageUrl = '';
+    var indexOf = window.location.href.toString().lastIndexOf('/');
+    if (indexOf > 0)
+        pageUrl = window.location.href.toString().substring(indexOf + 1);
+    switch (pageUrl.toLowerCase()) {
+        case "home.html":
             document.getElementById('menu_home').classList.add("active");
             break;
-        case "aboutus.aspx":
+        case "aboutus.html":
             document.getElementById('menu_aboutus').classList.add("active");
             break;
-        case "achievement.aspx":
-            document.getElementById('menu_achievement').classList.add("active");
+        case "goals.html":
+            document.getElementById('menu_goal').classList.add("active");
             break;
-        case "lifeinsurance.aspx":
-        case "terminsurance.aspx":
-        case "childplan.aspx":
-        case "guarantedplan.aspx":
-        case "pensionplan.aspx":
-        case "moneyback.aspx":
-            document.getElementById('menu_lifeinsurance').classList.add("active");
+        case "gallery.html":
+            document.getElementById('menu_gallery').classList.add("active");
             break;
-        case "generalinsurance.aspx":
-        case "motorinsurance.aspx":
-        case "homeinsurance.aspx":
-        case "travelinsurance.aspx":
-            document.getElementById('menu_generalinsurance').classList.add("active");
+        case "faculty.html":
+            document.getElementById('menu_faculty').classList.add("active");
             break;
-        case "healthinsurance.aspx":
-            document.getElementById('menu_healthinsurance').classList.add("active");
-            break;
-        case "motorclaim.aspx":
-        case "generalclaim.aspx":
-            document.getElementById('menu_download').classList.add("active");
-            break;
-        case "contactus.aspx":
-        case "policyreminder.aspx":
+        case "contactus.html":
             document.getElementById('menu_contact').classList.add("active");
             break;
         default:
