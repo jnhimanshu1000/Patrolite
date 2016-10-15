@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <%@ Register Src="~/Uc_Footer.ascx" TagName="Footer" TagPrefix="UC" %>
 <%@ Register Src="~/Uc_Header.ascx" TagName="Header" TagPrefix="UC" %>
-<%@ Register Src="~/FooterText.ascx" TagName="FooterText" TagPrefix="UC" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8" />
@@ -37,7 +36,6 @@
                         </asp:ContentPlaceHolder>
                     </div>
                 </div>
-                <UC:FooterText ID="FooterText" runat="server" />
                 <UC:Footer ID="Footer" runat="server" />
             </div>
         </div>

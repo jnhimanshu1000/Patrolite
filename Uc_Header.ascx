@@ -1,14 +1,14 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Uc_Header.ascx.cs" Inherits="Uc_Header" %>
 <header class="header">
     <div style="width: 95%;">
-        <table style="width:100%;">
+        <table style="width: 100%;">
             <tr>
                 <td>
                     <h1 id="logo">Bansal Insurance</h1>
                 </td>
-                <td style="text-align:right;">
+                <td style="text-align: right;">
                     <span style="float: right; margin-top: -20px;">
-                        <table style="font-size: 15px; font-weight: bold; color: #324957;text-align:left;">
+                        <table style="font-size: 15px; font-weight: bold; color: #324957; text-align: left;">
                             <tr>
                                 <td>
                                     <img src="images/phone-icon.png" />
@@ -88,24 +88,24 @@
     <div class="cl">&nbsp;</div>
     <script>
         function ClearActiveClass() {
-            $('#menu_home').removeClass("active");
-            $('#menu_aboutus').removeClass("active");
-            $('#menu_lifeinsurance').removeClass("active");
-            $('#menu_generalinsurance').removeClass("active");
-            $('#menu_healthinsurance').removeClass("active");
-            $('#menu_download').removeClass("active");
-            $('#menu_contact').removeClass("active");
+            document.getElementById('menu_home').classList.remove("active");
+            document.getElementById('menu_aboutus').classList.remove("active");
+            document.getElementById('menu_lifeinsurance').classList.remove("active");
+            document.getElementById('menu_generalinsurance').classList.remove("active");
+            document.getElementById('menu_healthinsurance').classList.remove("active");
+            document.getElementById('menu_download').classList.remove("active");
+            document.getElementById('menu_contact').classList.remove("active");
         }
         ClearActiveClass();
         switch (window.location.href.toString().split(window.location.host + '/')[1].toLowerCase()) {
             case "home.aspx":
-                $('#menu_home').addClass("active");
+                document.getElementById('menu_home').classList.add("active");
                 break;
             case "aboutus.aspx":
-                $('#menu_aboutus').addClass("active");
+                document.getElementById('menu_aboutus').classList.add("active");
                 break;
             case "achievement.aspx":
-                $('#menu_achievement').addClass("active");
+                document.getElementById('menu_achievement').classList.add("active");
                 break;
             case "lifeinsurance.aspx":
             case "terminsurance.aspx":
@@ -113,27 +113,27 @@
             case "guarantedplan.aspx":
             case "pensionplan.aspx":
             case "moneyback.aspx":
-                $('#menu_lifeinsurance').addClass("active");
+                document.getElementById('menu_lifeinsurance').classList.add("active");
                 break;
             case "generalinsurance.aspx":
             case "motorinsurance.aspx":
             case "homeinsurance.aspx":
             case "travelinsurance.aspx":
-                $('#menu_generalinsurance').addClass("active");
+                document.getElementById('menu_generalinsurance').classList.add("active");
                 break;
             case "healthinsurance.aspx":
-                $('#menu_healthinsurance').addClass("active");
+                document.getElementById('menu_healthinsurance').classList.add("active");
                 break;
             case "motorclaim.aspx":
             case "generalclaim.aspx":
-                $('#menu_download').addClass("active");
+                document.getElementById('menu_download').classList.add("active");
                 break;
             case "contactus.aspx":
             case "policyreminder.aspx":
-                $('#menu_contact').addClass("active");
+                document.getElementById('menu_contact').classList.add("active");
                 break;
             default:
-                $('#menu_home').addClass("active");
+                document.getElementById('menu_home').classList.add("active");
                 break;
         }
     </script>
