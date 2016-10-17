@@ -1,2 +1,0 @@
-# Patrolite
-Ravi Jain

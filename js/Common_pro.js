@@ -51,7 +51,7 @@ function checkValidation(name, city, emailid, contact, comment, address) {
         if (validation != '')
             validation += ', ';
         validation += 'Comments';
-    }    
+    }
     return validation;
 }
 function FindAllValidChars(email) {
@@ -116,7 +116,23 @@ function OnSaveClick() {
     }
     setTimeout("ClearData()", 1000);
 }
-
 function ClearData() {
     alert('Thank you For Writting us. We will contact you soon....');
 }
+
+$('#btnSave').click(function () {
+    $.ajax({
+        url: "/Email/GetData",
+        type: "POST",
+        data: JSON.stringify({ 'name': $('#name').val(), 'emailId': $('#emailId').val(), 'phone': $('#phone').val(), 'comments': $('#comments').val() }),
+        dataType: "json",
+        traditional: true,
+        contentType: "application/json; charset=utf-8",
+        success: function (data) {
+            alert("We wll contact you shortly!!!");
+        },
+        error: function () {
+            alert("We wll contact you shortly!!!");
+        }
+    });
+});
