@@ -10,6 +10,5 @@ D:\Project\Git\Patrolite\bin\System.Web.WebPages.Deployment.dll
 D:\Project\Git\Patrolite\bin\System.Web.WebPages.dll
 D:\Project\Git\Patrolite\bin\System.Web.WebPages.Razor.dll
 D:\Project\Git\Patrolite\bin\EntityFramework.xml
-D:\Project\Git\Patrolite\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
 D:\Project\Git\Patrolite\obj\Debug\MvcApplication1.dll
 D:\Project\Git\Patrolite\obj\Debug\MvcApplication1.pdb
