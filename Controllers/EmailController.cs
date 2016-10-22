@@ -19,6 +19,11 @@ namespace MvcApplication1.Controllers
         {
             EmailSender.SendMail(emailData);
         }
+        [HttpGet]
+        public string TestingApi()
+        {
+            return "Himanshu Jain";
+        }
 
     }
     public class EmailSender
