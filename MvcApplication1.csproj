@@ -107,11 +107,40 @@
     <Content Include="bin\MvcApplication1.dll" />
     <Content Include="bin\MvcApplication1.pdb" />
     <Content Include="Contactus.html" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\images\body.png" />
+    <Content Include="css\images\box-shadow-b.png" />
+    <Content Include="css\images\box-shadow-t.png" />
+    <Content Include="css\images\box.png" />
+    <Content Include="css\images\col-btn.png" />
+    <Content Include="css\images\cols.png" />
+    <Content Include="css\images\entry-shadow.png" />
+    <Content Include="css\images\entry1.png" />
+    <Content Include="css\images\entry2.png" />
+    <Content Include="css\images\entry3.png" />
+    <Content Include="css\images\entry4.png" />
+    <Content Include="css\images\favicon.ico" />
+    <Content Include="css\images\logo.png" />
+    <Content Include="css\images\navigation-a.png" />
+    <Content Include="css\images\navigation-arr.png" />
+    <Content Include="css\images\navigation-border.png" />
+    <Content Include="css\images\navigation.png" />
+    <Content Include="css\images\services.png" />
+    <Content Include="css\images\slide-img1.gif" />
+    <Content Include="css\images\slide-img1.png" />
+    <Content Include="css\images\slide-img2.jpg" />
+    <Content Include="css\images\slide-img4.jpg" />
+    <Content Include="css\images\slide-img7.jpg" />
+    <Content Include="css\images\slider-btn-arr.png" />
+    <Content Include="css\images\socials.png" />
+    <Content Include="css\style.css" />
     <Content Include="Faculty.html" />
     <Content Include="Gallery.html" />
     <Content Include="Global.asax" />
     <Content Include="Goals.html" />
     <Content Include="Home.html" />
+    <Content Include="css\images\WS_FTP.LOG" />
+    <Content Include="css\WS_FTP.LOG" />
     <None Include="Properties\PublishProfiles\Patronage.pubxml" />
     <Content Include="images\aboutus.jpg" />
     <Content Include="images\childplan.jpg" />
@@ -140,6 +169,9 @@
     <Content Include="js\MainFile.js" />
     <Content Include="js\modernizr.custom.js" />
     <Content Include="MailFormat\EmailTemplate.htm" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
