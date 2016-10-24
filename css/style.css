@@ -158,7 +158,7 @@ textarea {
             color: #06376a;
             font-weight: bold;
             float: left;
-            padding: 0 53px;
+            padding: 0 50px;
             border: 1px solid #d7e1e8;
             border-left: 0;
             border-right: 0;
@@ -783,6 +783,16 @@ ul.listFormat li {
 .subHeading {
     margin-top: 10px;
     font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #06376a;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.smallSubHeading {
+    margin-top: 10px;
+    font-size: 14px;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #06376a;
     padding: 5px 0px 5px 0px;
