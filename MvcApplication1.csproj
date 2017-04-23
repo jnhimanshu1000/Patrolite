@@ -137,7 +137,7 @@
     <Content Include="Faculty.html" />
     <Content Include="Gallery.html" />
     <Content Include="Global.asax" />
-    <Content Include="Goals.html" />
+    <Content Include="WhyUs.html" />
     <Content Include="Home.html" />
     <Content Include="css\images\WS_FTP.LOG" />
     <Content Include="css\WS_FTP.LOG" />

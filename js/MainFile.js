@@ -37,7 +37,7 @@ function ClearActiveClass() {
         case "aboutus.html":
             document.getElementById('menu_aboutus').classList.add("active");
             break;
-        case "goals.html":
+        case "whyus.html":
             document.getElementById('menu_goal').classList.add("active");
             break;
         case "gallery.html":

@@ -9,21 +9,31 @@
   <url>
     <loc>http://www.patronagedu.in/</loc>
     <priority>1.00</priority>
+    <lastmod>2016-10-24T08:52:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.patronagedu.in/Home.html</loc>
     <priority>0.80</priority>
+    <lastmod>2016-10-24T08:52:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.patronagedu.in/AboutUs.html</loc>
     <priority>0.80</priority>
+    <lastmod>2016-10-24T08:52:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.patronagedu.in/Goals.html</loc>
+    <loc>http://www.patronagedu.in/WhyUs.html</loc>
     <priority>0.80</priority>
+    <lastmod>2016-10-24T08:52:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.patronagedu.in/ContactUs.html</loc>
     <priority>0.80</priority>
+    <lastmod>2016-10-24T08:52:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
