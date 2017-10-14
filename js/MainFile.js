@@ -31,7 +31,7 @@ function ClearActiveClass() {
     if (indexOf > 0)
         pageUrl = window.location.href.toString().substring(indexOf + 1);
     switch (pageUrl.toLowerCase()) {
-        case "home.html":
+        case "index.html":
             document.getElementById('menu_home').classList.add("active");
             break;
         case "aboutus.html":
@@ -46,7 +46,7 @@ function ClearActiveClass() {
         case "faculty.html":
             document.getElementById('menu_faculty').classList.add("active");
             break;
-        case "contactus.html":
+        case "Contactus.html":
             document.getElementById('menu_contact').classList.add("active");
             break;
         default:
